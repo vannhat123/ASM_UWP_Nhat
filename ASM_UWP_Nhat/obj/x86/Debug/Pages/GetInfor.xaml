@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="ASM_UWP_Nhat.Pages.GetInfor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ASM_UWP_Nhat.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer Margin="20">
+        <StackPanel Margin="50" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBlock>Name</TextBlock>
+            <TextBox x:ConnectionId='2' x:Name="Name"></TextBox>
+
+            <TextBlock>Singer</TextBlock>
+            <TextBox x:ConnectionId='3' x:Name="Singer"></TextBox>
+
+            <TextBlock>Author</TextBlock>
+            <TextBox x:ConnectionId='4' x:Name="Author"></TextBox>
+
+            <TextBlock>Thumbnail</TextBlock>
+            <Image x:ConnectionId='5' x:Name="ImageControl" Width="200" Height="200"/>
+
+  
+        </StackPanel>
+    </ScrollViewer>
+</Page>
+
