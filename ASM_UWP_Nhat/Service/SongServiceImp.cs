@@ -27,7 +27,7 @@ namespace ASM_UWP_Nhat.Service
 
         private string Send_Song_URL = "https://2-dot-backup-server-003.appspot.com/_api/v2/songs/post-free";
         private string Infor_URL = "https://2-dot-backup-server-003.appspot.com/_api/v2/songs/get-free-songs";
-        public ListSong1 GetInfor()
+        public List<ListSong1> GetInfor()
         {
             //HttpClient client = new HttpClient();
             //client.DefaultRequestHeaders.Add("Authorization", "Basic ");
@@ -41,8 +41,12 @@ namespace ASM_UWP_Nhat.Service
             //    author = jsonJObject["author"].ToString(),
             //    thumbnail = jsonJObject["thumbnail"].ToString()
             //};
-            ListSong1 listsong1 = new ListSong1();
-            return listsong1;
+
+            HttpClient httpClient = new HttpClient();
+            var responseContent = httpClient.GetAsync(Infor_URL).Result.Content.ReadAsStringAsync().Result;
+            List<ListSong1> listSong = JsonConvert.DeserializeObject<List<ListSong1>>(responseContent);
+           
+            return listSong;
         }
 
 

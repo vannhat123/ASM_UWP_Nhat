@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\nhatn\Desktop\WUP old\ASM_UWP_Nhat\ASM_UWP_Nhat\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-02T13:55:33.966</Modified>
+      <Modified>2019-10-02T14:26:15.442</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\nhatn\Desktop\WUP old\ASM_UWP_Nhat\ASM_UWP_Nhat\bin\x86\Debug\ASM_UWP_Nhat.exe">
       <PackagePath>entrypoint\ASM_UWP_Nhat.exe</PackagePath>
-      <Modified>2019-10-02T13:55:33.235</Modified>
+      <Modified>2019-10-02T14:26:14.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nhatn\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -90,27 +90,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nhatn\Desktop\WUP old\ASM_UWP_Nhat\ASM_UWP_Nhat\bin\x86\Debug\ASM_UWP_Nhat.xr.xml">
       <PackagePath>ASM_UWP_Nhat.xr.xml</PackagePath>
-      <Modified>2019-10-02T12:48:39.602</Modified>
+      <Modified>2019-10-02T14:26:14.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nhatn\Desktop\WUP old\ASM_UWP_Nhat\ASM_UWP_Nhat\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-02T13:55:33.013</Modified>
+      <Modified>2019-10-02T14:26:14.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nhatn\Desktop\WUP old\ASM_UWP_Nhat\ASM_UWP_Nhat\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-10-02T13:55:33.014</Modified>
+      <Modified>2019-10-02T14:26:14.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nhatn\Desktop\WUP old\ASM_UWP_Nhat\ASM_UWP_Nhat\bin\x86\Debug\MasterLayOut.xbf">
       <PackagePath>MasterLayOut.xbf</PackagePath>
-      <Modified>2019-10-02T13:55:33.014</Modified>
+      <Modified>2019-10-02T14:26:14.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nhatn\Desktop\WUP old\ASM_UWP_Nhat\ASM_UWP_Nhat\bin\x86\Debug\Pages\GetInfor.xbf">
       <PackagePath>Pages\GetInfor.xbf</PackagePath>
-      <Modified>2019-10-02T13:55:33.015</Modified>
+      <Modified>2019-10-02T14:26:14.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nhatn\Desktop\WUP old\ASM_UWP_Nhat\ASM_UWP_Nhat\bin\x86\Debug\Pages\SendInfor.xbf">
       <PackagePath>Pages\SendInfor.xbf</PackagePath>
-      <Modified>2019-10-02T13:55:33.016</Modified>
+      <Modified>2019-10-02T14:26:14.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -122,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nhatn\Desktop\WUP old\ASM_UWP_Nhat\ASM_UWP_Nhat\bin\x86\Debug\Core\ASM_UWP_Nhat.exe">
       <PackagePath>ASM_UWP_Nhat.exe</PackagePath>
-      <Modified>2019-10-02T13:55:33.950</Modified>
+      <Modified>2019-10-02T14:26:15.434</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

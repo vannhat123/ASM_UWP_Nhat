@@ -11,6 +11,6 @@ namespace ASM_UWP_Nhat.Service
     {
         ListSong1 SendInfor(ListSong1 listsong1);
 
-        ListSong1 GetInfor();
+        List<ListSong1> GetInfor();
     }
 }
